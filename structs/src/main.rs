@@ -34,7 +34,18 @@ fn main() {
 // Tuple struct
 struct Color(i32, i32, i32);
 struct Point(i32, i32, i32);*/
-                    // Area of Rectangle
-                    
+                    // Area of Rectangle: Rfeactoring with Tuples
+    
+fn main()
+{
+   // let width1= 30;
+    //let height1= 50;
+    let rect1= (30,50);
+    println!("The area of rectangle is {} square pixels", area(rect1)
+    );}
+
+    fn area(dimension: (u32, u32))-> u32{
+        dimension.0 * dimension.1
+    }
 
 
